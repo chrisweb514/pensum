@@ -1,0 +1,30 @@
+/******************************************************************
+
+Stylesheet: Login Stylesheet
+
+This stylesheet is loaded is only on the login page. This way you can style
+the login page. It won't affect any other page, admin or front-end.
+
+Make sure functions/admin.php is activated in your functions.php file.
+
+This stylesheet is turned off by default.
+
+For more info, check out the codex:
+http://codex.wordpress.org/Creating_Admin_Themes
+
+******************************************************************/
+body { background: #F1F1F1; }
+.login h1 a {
+  background: url(../dist/images/login-logo.png) no-repeat top center; background-size: 75px;
+  width: 75px;
+  height: 75px;
+  text-indent: -9999px;
+  overflow: hidden;
+  padding-bottom: 15px;
+  display: block; }
+ .wp-core-ui .button-primary { background: #5ebebb; text-shadow: none; border: none; }
+ .wp-core-ui .button-primary:hover, .wp-core-ui .button-primary:focus { background: #5ebebb; border: 0; text-shadow: none; }
+
+/*.login a { color: #FFF!important; }*/
+
+.login a:hover { text-decoration: underline!important; }
