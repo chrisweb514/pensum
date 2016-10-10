@@ -7,8 +7,8 @@
 		<main id="main" class="animate-scroll-block-inner">
 
 			<?php get_template_part('parts/content','benefits'); ?>
-			<?php get_template_part('parts/content','services'); ?>
-			<?php get_template_part('parts/content','caribbean'); ?>
+			<?php //get_template_part('parts/content','services'); ?>
+			<?php //get_template_part('parts/content','caribbean'); ?>
 
 		</main> <!-- end #main -->
 

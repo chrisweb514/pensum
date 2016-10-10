@@ -30,7 +30,7 @@
 			<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/assets/dist/images/win8-tile-icon.png">
 	    <meta name="theme-color" content="#121212">
 	    <?php } ?>
-
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif|Roboto" rel="stylesheet">
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
 		<?php wp_head(); ?>
@@ -62,7 +62,7 @@
         </script>
       <?php endif; ?>
 
-    <script>
+    <!-- <script>
         (function(h,o,t,j,a,r){
             h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
             h._hjSettings={hjid:269534,hjsv:5};
@@ -82,7 +82,7 @@
       ga('create', 'UA-82854413-1', 'auto');
       ga('send', 'pageview');
 
-    </script>
+    </script> -->
 
     <?php endif; ?>
 
@@ -91,7 +91,7 @@
       height: 100%; left: 0; position: fixed; top: 0; width: 100%; z-index: 2500;
       }
       #loader-wrapper .loader-section {
-      -ms-transform: translateX(); -webkit-transform: translateX(); background: #ffffff; height: 100%; position: fixed; top: 0; transform: translateX(); width: 100%; z-index: 1000;
+      -ms-transform: translateX(); -webkit-transform: translateX(); background: #292440; height: 100%; position: fixed; top: 0; transform: translateX(); width: 100%; z-index: 1000;
       }
       #loader {
       display: block; height: 150px; left: 50%; margin: -75px 0 0 -75px; position: relative; top: 50%; width: 150px; z-index: 1001;
@@ -109,10 +109,10 @@
       -moz-transform: translate(-50%, -50%); -moz-transition: all 200ms ease; -ms-transform: translate(-50%, -50%); -o-transition: all 200ms ease; -webkit-transform: translate(-50%, -50%); -webkit-transition: all 200ms ease; border-radius: 50%; height: 0; left: 50%; position: absolute; top: 50%; transform: translate(-50%, -50%); transition: all 200ms ease; width: 0; z-index: 1;
       }
       .circle:nth-child(1) {
-      animation-delay: 0; animation-duration: 1s; animation-iteration-count: infinite; animation-name: explode; animation-timing-function: ease; background: #5ebebb; z-index: 2;
+      animation-delay: 0; animation-duration: 1s; animation-iteration-count: infinite; animation-name: explode; animation-timing-function: ease; background: #B7291D; z-index: 2;
       }
       .circle:nth-child(2) {
-      animation-delay: 0.5s; animation-duration: 1s; animation-iteration-count: infinite; animation-name: explode; animation-timing-function: ease; background: #499a99;
+      animation-delay: 0.5s; animation-duration: 1s; animation-iteration-count: infinite; animation-name: explode; animation-timing-function: ease; background: #D1392D;
       }
       @keyframes explode {
         0% {

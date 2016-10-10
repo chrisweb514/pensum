@@ -1,26 +1,26 @@
 								<!-- <div class="animate-scroll-block">
 									<div class="animate-scroll-block-inner"> -->
-										<footer class="footer gotham-font">
+										<footer class="footer gotham-font hide">
 											<!-- full-width  -->
 											<div class="row" data-equalizer>
 												<div class="info-wr column small-6 medium-6">
 													<div class="logo-wr left" data-equalizer-watch>
 														<div class="row">
-															<div class="column small-6 medium-10 large-9">
+															<div class="column small-6 medium-6">
 																<img src="<?php echo get_template_directory_uri(); ?>/assets/dist/images/ui/logo-footer.png" alt="<?php echo get_bloginfo( 'name' ); ?>">
 															</div>
 														</div>
 														<div class="show-for-small-only">
-															<div class="copyright font-weight-300">© 2016 AirVu<br>All rights reserved</div>
+															<div class="copyright font-weight-300">© 2016 <?php echo get_bloginfo( 'name' ); ?><br>All rights reserved</div>
 														</div>
 													</div>
 													<div class="left contact-details" data-equalizer-watch>
 
 														<div class="vcenter show-for-medium">
 															<div class="contact">
-																<a href="mailto:info@airvu.co">info@airvu.co</a>  -   Tel: 345-938-6565
+																<a href="mailto:info@pensum.co">info@pensum.co</a>  -   Tel: 345-777-5555
 															</div>
-															<div class="copyright font-weight-300">© 2016 AirVu All rights reserved</div>
+															<div class="copyright font-weight-300">© 2016 <?php echo get_bloginfo( 'name' ); ?> All rights reserved</div>
 														</div>
 
 													</div>

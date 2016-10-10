@@ -126,6 +126,7 @@ if ( !class_exists("custom_fields") ) {
 	            'id' => 'benefit',
 	            'type' => 'group',
 	            'clone' => true,
+							'sort_clone' => true,
 	            'fields' => array(
 								array(
 									'name' => __( 'Title', 'collective' ),

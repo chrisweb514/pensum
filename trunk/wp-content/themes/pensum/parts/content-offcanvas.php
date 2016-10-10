@@ -9,20 +9,19 @@
 
  <div class="company-info">
    <div class="info">
-     AirVu<br>
-     Cayman Technology Center<br>
-     115 Printers Way<br>
-     George Town, KY1-1001<br>
+     Pensum<br>
+     Cayman Business Park A7<br>
+     George Town<br> <!-- KY1-1001 -->
      Grand Cayman, Cayman Islands
    </div>
    <div class="contact-info">
      <div class="info">
-       <a href="mailto:info@airvu.co">info@airvu.co</a>
+       <a href="mailto:info@pensum.co">info@pensum.co</a>
        <a href="tel:1345-938-6565">Tel: 345-938-6565</a>
      </div>
    </div>
  </div>
 
- <a href="https://www.linkedin.com/company/3268818" target="_blank">LinkedIn</a>
+ <!-- <a href="https://www.linkedin.com/company/3268818" target="_blank">LinkedIn</a> -->
 
 </div>
