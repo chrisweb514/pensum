@@ -1,5 +1,27 @@
 								<!-- <div class="animate-scroll-block">
 									<div class="animate-scroll-block-inner"> -->
+									<footer>
+
+											<div class="row">
+												<div class="column">
+													<div class="inner-footer text-center">
+														<ul class="unstyled border-right">
+															<li><a href="#" class="vcenter"><span class="icon-phone">(1) 345-945-1830</span></a></li>
+															<li><a href="#" class="vcenter"><span class="icon-mail">info@pensum.co</span></a></li>
+														</ul>
+														<ul class="unstyled footer-secondary-menu underline-links">
+															<li><a href="#" class="vcenter">Free Library</a></li>
+															<li><a href="#" class="vcenter">Other Services</a></li>
+															<li><a href="#" class="vcenter">About us</a></li>
+															<li class="contact-us"><a href="#" class="vcenter">Contact us</a></li>
+														</ul>
+														<div class="clearfix"></div>
+													</div>
+												</div>
+											</div>
+
+									</footer>
+									<?php if( false ): ?>
 										<footer class="footer gotham-font hide">
 											<!-- full-width  -->
 											<div class="row" data-equalizer>
@@ -38,6 +60,7 @@
 										  </div>
 
 										</footer> <!-- end .footer -->
+									<?php endif; ?>
 									<!-- </div>
 								</div> -->
 							</div>

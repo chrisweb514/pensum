@@ -120,7 +120,7 @@
 												<h1><?php echo $slide['title']; ?></h1>
 												<?php if( $slide['subtitle'] ): ?>
 												<div class="row">
-													<div class="column medium-11 large-7 medium-centered">
+													<div class="column medium-11 large-7=8 medium-centered">
 														<?php if( get_post_meta( $slide['ID'], 'wpcf-sub-title-border', true ) ): ?>
 															<div class="row" data-equalizer>
 																<div class="column large-9 large-centered">
@@ -142,7 +142,7 @@
 																</div>
 															</div>
 														<?php else:  ?>
-															<div class="subtitle gotham-font"><?php echo $slide['subtitle']; ?></div>ac
+															<div class="subtitle gotham-font"><?php echo $slide['subtitle']; ?></div>
 														<?php endif; ?>
 													</div>
 												</div>
