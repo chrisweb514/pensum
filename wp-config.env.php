@@ -12,15 +12,15 @@
  */
 
 switch ($hostname) {
-    case 'airvu.local.collective.design':
+    case 'pensum.local.collective.design':
         define('WP_ENV', 'development');
         break;
 
-    case 'airvu.staging.collective.design':
+    case 'pensum.staging.collective.design':
         define('WP_ENV', 'staging');
         break;
 
-    case 'airvu.co':
+    case 'pensum.co':
     default:
         define('WP_ENV', 'production');
 }

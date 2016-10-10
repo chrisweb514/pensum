@@ -18,7 +18,7 @@
 @ini_set('error_reporting',1);
 
 
-define('DB_NAME', 'airvu');
+define('DB_NAME', 'pensum');
 
 /** MySQL database username */
 define('DB_USER', 'root');
