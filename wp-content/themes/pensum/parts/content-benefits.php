@@ -7,7 +7,7 @@
           <?php foreach( $benefits as $benefit ): ?>
           <div class="column medium-6 benefit-item">
             <div class="row">
-              <div class="column medium-9 medium-centered font-weight-300">
+              <div class="column medium-12 medium-centered font-weight-300">
                 <div class="icon-wr">
                   <span class="<?php echo $benefit['icon']?>">
                     <?php echo $benefit['svg']; ?>

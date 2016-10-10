@@ -83,16 +83,16 @@ jQuery(document).ready(function($) {
     return false;
 	});
 
-  $("#intro-animation-text span.first").typed({
-      strings: ['police force', 'fire department','marine unit', 'security team', 'prison', 'loss adjusters'],
-      startDelay: 2000,
-      typeSpeed: 100,
-      backSpeed: 50,
-      backDelay: 1000,
-      loop: true,
-      loopCount: false,
-      contentType: 'text', // or
-  });
+  // $("#intro-animation-text span.first").typed({
+  //     strings: ['police force', 'fire department','marine unit', 'security team', 'prison', 'loss adjusters'],
+  //     startDelay: 2000,
+  //     typeSpeed: 100,
+  //     backSpeed: 50,
+  //     backDelay: 1000,
+  //     loop: true,
+  //     loopCount: false,
+  //     contentType: 'text', // or
+  // });
 
 
   // IF video header set it up

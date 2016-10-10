@@ -17,21 +17,22 @@
 	  					</li>
 	  				</ul>
 					</div>
-
-					<?php if( is_front_page() ): ?>
-					<div class="mobile-contact-details show-for-small-only text-right">
-						<a href="mailto:">info@airvu.co</a>
-						<a href="tel:1345-938-6565">Tel: 345-938-6565</a>
-					</div>
-					<?php else: ?>
-						<div class="mobile-contact-details left show-for-small-only text-left">
+					<?php if(false): ?>
+						<?php if( is_front_page() ): ?>
+						<div class="mobile-contact-details show-for-small-only text-right">
 							<a href="mailto:">info@airvu.co</a>
-							<a href="tel:1345-938-6565">345-938-6565</a>
+							<a href="tel:1345-938-6565">Tel: 345-938-6565</a>
 						</div>
-					<div class="book-demo-cta show-for-small-only">
-						<a href="<?php echo get_the_permalink( 169 ); ?>" class="button right">Book a Demo</a>
-						<div class="clearfix"></div>
-					</div>
+						<?php else: ?>
+							<div class="mobile-contact-details left show-for-small-only text-left">
+								<a href="mailto:">info@airvu.co</a>
+								<a href="tel:1345-938-6565">345-938-6565</a>
+							</div>
+						<div class="book-demo-cta show-for-small-only">
+							<a href="<?php echo get_the_permalink( 169 ); ?>" class="button right">Book a Demo</a>
+							<div class="clearfix"></div>
+						</div>
+						<?php endif; ?>
 					<?php endif; ?>
 
 	        <div id="main-navigation" class="top-bar-right show-for-medium">
@@ -39,7 +40,7 @@
 	            <?php collective_top_nav(); ?>
 							<?php if( !is_front_page() ): ?>
 							<div class="book-demo-cta left show-for-large">
-								<a href="<?php echo get_the_permalink( 169 ); ?>" class="button right">Book a Demo</a>
+								<a href="<?php echo get_the_permalink( 169 ); ?>" class="button right">Get in touch</a>
 								<div class="clearfix"></div>
 							</div>
 							<?php endif; ?>
@@ -48,6 +49,13 @@
 									<span class="icon-menu"></span>
 								</button>
 						  </div>
+							<?php if(false): ?>
+							<div class="title-bar-right show-for-medium">
+								<button data-open="offCanvasRight">
+									<span class="icon-menu"></span>
+								</button>
+						  </div>
+							<?php endif; ?>
 	          </div>
 	        </div>
 					<div class="clearfix"></div>

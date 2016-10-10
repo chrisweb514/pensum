@@ -22,7 +22,7 @@
 	}
 
 	foreach($slides as $slide):
-		//clean_print_r( get_post_meta($slide->ID,'wpcf-slim', true) );
+
 	?>
 		<!-- <div class="animate-scroll-block">
 			<div class="animate-scroll-block-inner"> -->
@@ -33,34 +33,46 @@
 			<div class="header-slider-wr" style="position: relative;">
 				<div class="backstretch-image" data-bg-color="#000" data-opacity=".72" data-transition="500" data-bg-image="<?php echo $slide['image']; ?>">
 
-					<div class="slide-content-wr vcenter row" data-equalizer>
+					<div class="slide-content-wr" data-equalizer>
 
-							<div class="column medium-11 large-10 medium-centered">
+							<div class="column medium-6">
 								<div class="row">
 
 									<div class="column hero" data-equalizer-watch>
 
 										<div class="hero-content-wr vcenter">
 
-											<div class="main-quote-wr text-center">
-												<!-- <span class="quote-title"><?php echo $slide['title']; ?></span> -->
-												<h1 id="intro-animation-text">
-													<span class="">A higher perspective to reduce costs, increase capabilities for your</span>
-													<span class="first"></span>
-												</h1>
+											<div class="row">
+												<div class="column right medium-10">
+													<div class="main-quote-wr">
+														<!-- <span class="quote-title"><?php echo $slide['title']; ?></span> -->
+														<h1 id="intro-animation-text">
+															<span class="">We provide international maritime and financial services that are fast, friendly and efficient.</span>
+															<!-- <span class="first"></span> -->
+														</h1>
 
 
-            				<!-- <span id="typed" style="white-space:pre;"></span> -->
-											</div>
+		            				<!-- <span id="typed" style="white-space:pre;"></span> -->
+													</div>
 
-											<div class="call-to-action-wr">
-												<a href="<?php echo get_the_permalink(169); ?>" class="button">Book a Demo</a>
+													<div class="call-to-action-wr">
+														<a href="#" class="button outline white">View our benefits <span class="icon-down-open-mini"></span></a>
+													</div>
+												</div>
 											</div>
 
 										</div>
 
 					        </div>
 
+								</div>
+							</div>
+
+							<div class="column medium-6" style="background: rgba(0,0,0,.1);" data-equalizer-watch>
+								<div class="slide-content-right">
+									<div class="vcenter">
+										test
+									</div>
 								</div>
 							</div>
 
@@ -72,6 +84,13 @@
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/dist/images/ui/svg/scroll_mobile.svg" alt="<?php bloginfo('name'); ?>" />
 					</div>
 				</div>
+
+				<div class="arrow-bottom show-for-medium">
+					<a href="#">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/dist/images/ui/arrow-down.png" alt="">
+					</a>
+				</div>
+
 			</div>
 
 			<?php else: ?>
@@ -102,7 +121,29 @@
 												<?php if( $slide['subtitle'] ): ?>
 												<div class="row">
 													<div class="column medium-11 large-7 medium-centered">
-														<div class="subtitle gotham-font"><?php echo $slide['subtitle']; ?></div>
+														<?php if( get_post_meta( $slide['ID'], 'wpcf-sub-title-border', true ) ): ?>
+															<div class="row" data-equalizer>
+																<div class="column large-9 large-centered">
+																	<div class="row">
+																		<div class="column medium-4" >
+																			<hr class="border_hr">
+																		</div>
+																		<div class="column medium-4">
+																			<div class="subtitle gotham-font" >
+																				<div style="margin-top: 5px;">
+																					<?php echo $slide['subtitle']; ?>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="column medium-4" >
+																			<hr class="border_hr ">
+																		</div>
+																	</div>
+																</div>
+															</div>
+														<?php else:  ?>
+															<div class="subtitle gotham-font"><?php echo $slide['subtitle']; ?></div>ac
+														<?php endif; ?>
 													</div>
 												</div>
 												<?php endif; ?>
@@ -131,6 +172,11 @@
 
 				  <div class="slide-gradient"></div>
 
+				</div>
+				<div class="arrow-bottom show-for-medium">
+					<a href="#">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/dist/images/ui/arrow-down.png" alt="">
+					</a>
 				</div>
 			</div>
 			<?php endif;?>

@@ -22,8 +22,8 @@ body { background: #F1F1F1; }
   overflow: hidden;
   padding-bottom: 15px;
   display: block; }
- .wp-core-ui .button-primary { background: #5ebebb; text-shadow: none; border: none; }
- .wp-core-ui .button-primary:hover, .wp-core-ui .button-primary:focus { background: #5ebebb; border: 0; text-shadow: none; }
+ .wp-core-ui .button-primary { background: #292440; text-shadow: none; border: none; }
+ .wp-core-ui .button-primary:hover, .wp-core-ui .button-primary:focus { background: #292440; border: 0; text-shadow: none; }
 
 /*.login a { color: #FFF!important; }*/
 
