@@ -568,19 +568,6 @@ div.image-banner{ margin-bottom: 40px;
   .more-info { margin-top: 30px; }
 }
 
-#drone-infographic { margin-top: 50px;
-  .bottom-benefits { margin-top: 30px; }
-  .feature-wr { color: #297FCA;
-    &.middle { position: relative; top: -70px; }
-    span{ display: block;
-      &.icon { width: 36px; margin-bottom: 15px;
-        &.center { margin: 0 auto 15px auto; }
-      }
-      &.title { font-size: 20px; line-height: 1.2em; margin-bottom: 7px; }
-      &.subtitle { opacity: 0.8; font-size: 16px; color: #757575; line-height: 1.1em; }
-    }
-  }
-}
 
 /* ==========================================================================
     CAREERS
@@ -790,7 +777,9 @@ a {
 
     body { font-size: 22px; line-height: 1em; }
   .benefits-wr .benefit-item { margin-bottom: 30px; }
-  .header-slider-wr .slide-content-wr .hero h1 { font-size: 26px; }
+  .header-slider-wr .slide-content-wr .hero { height: 350px; padding-top: 275px;
+    h1 { font-size: 26px!important; }
+  }
   section#caribbean-map .title-wr h3 { font-size: 32px; margin-top: 25px; }
   section#caribbean-map .title-wr { font-size: 22px; line-height: 1.4em; }
 
@@ -828,7 +817,7 @@ a {
   #top-bar-menu #logo-wr a img.color { opacity: 1; }
   #top-bar-menu #main-navigation .title-bar-right .icon-menu { color: @highlight; }
 
-  #top-bar-menu #logo-wr a { height: 50px; width: 50px; }
+  #top-bar-menu #logo-wr a { width: 130px; }
   #top-bar-menu #logo-wr ul {margin-right: 10px;}
   #top-bar-menu #logo-wr .we-are-open { margin-top: 0; color: #303030; font-size: 18px; line-height: 18px; }
   #top-bar-menu #logo-wr .we-are-open span.hours { font-size: 16px; line-height: 14px; }
@@ -852,7 +841,7 @@ a {
         div.sub-nav-mobile { display: none; position: absolute; width: 100%;
           ul {
             li {
-              a {     font-size: 16px;text-align: left;padding-left: 20px;background: @darkairvu; }
+              a {     font-size: 16px;text-align: left;padding-left: 20px;background: @highlight; }
             }
             li:last-child {
               //a { padding-bottom: 60px;}
@@ -871,9 +860,13 @@ a {
   body p {font-size: 0.7em;}
 
   .top-bar-left, .top-bar-right { width: auto; }
-  .home .header-slider-wr .backstretch-image { height: 550px; padding-top: 0; }
+  .home .header-slider-wr .backstretch-image { height: 450px; padding-top: 0;
 
-  .header-slider-wr .slide-content-wr .main-quote-wr { font-weight: 500; font-size: 20px; letter-spacing: 0px; line-height: 25px; margin-top: 0; height: 110px;}
+  }
+
+  .header-slider-wr .slide-content-wr .main-quote-wr { font-weight: 500; font-size: 20px; letter-spacing: 0px; line-height: 25px; margin-top: 0;
+    //height: 110px;
+  }
   .header-slider-wr .slide-content-wr .main-quote-wr span.quote-title { font-weight: 900; font-size: 31px; line-height: 28px;}
   .header-slider-wr .slide-content-wr .call-to-action-wr { margin-top: 30px; padding-bottom: 70px; }
 

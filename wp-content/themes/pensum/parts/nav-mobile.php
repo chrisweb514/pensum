@@ -2,7 +2,7 @@
   <div id="nav-mobile" class="show-for-small-only">
     <ul class="unstyled row text-center collapse">
       <li class="column small-6">
-        <a href="#" class="menu-toggle">Industry <span class="icon icon-down-open-mini"></span></a>
+        <a href="#" class="menu-toggle">Services <span class="icon icon-down-open-mini"></span></a>
         <div class="sub-nav-mobile">
           <ul class="unstyled">
             <?php foreach(collective::get_services(0, array('exclude'=> 45)) as $page): ?>
@@ -19,7 +19,7 @@
   <div id="nav-mobile" class="show-for-small-only">
     <ul class="unstyled row text-center collapse">
       <li class="column small-6">
-        <a href="#" class="menu-toggle">Industry <span class="icon icon-down-open-mini"></span></a>
+        <a href="#" class="menu-toggle">Services <span class="icon icon-down-open-mini"></span></a>
         <div class="sub-nav-mobile">
           <ul class="unstyled">
             <?php foreach(collective::get_services(0, array('exclude'=> 45)) as $page): ?>
