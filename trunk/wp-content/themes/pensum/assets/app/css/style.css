@@ -193,6 +193,20 @@ button.button {
   background: #292440;
   font-family: 'Roboto', sans-serif;
 }
+a.button.full-width,
+button.button.full-width {
+  width: 100%;
+}
+a.button.red,
+button.button.red {
+  padding: 15px 30px;
+  background-color: #d1392d;
+  border: solid 3px #d1392d;
+}
+a.button.red:hover,
+button.button.red:hover {
+  background: none;
+}
 a.button.grey,
 button.button.grey {
   background: #d3d3d3;
@@ -786,6 +800,23 @@ footer .inner-footer ul li a span:before {
 .header-slider-wr .slide-content-wr {
   position: relative;
   z-index: 10;
+}
+.header-slider-wr .slide-content-wr .quote-form {
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+}
+.header-slider-wr .slide-content-wr .quote-form h2 {
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 35px;
+  color: #F7F7F7;
+}
+.header-slider-wr .slide-content-wr .quote-form .quote-form-inner {
+  margin-top: 40px;
+}
+.header-slider-wr .slide-content-wr .quote-form .quote-form-inner .title-wr {
+  margin-bottom: 15px;
 }
 .blog .header-slider-wr .slide-content-wr {
   height: 300px;

@@ -6100,7 +6100,7 @@ jQuery(document).ready(function($) {
       else {
         $.ajax({
           method: 'POST',
-          url: '//formspree.io/info@airvu.co',
+          url: '//formspree.io/info@collective.design',
           data: $('#contact_form').serialize(),
           datatype: 'json'
         });

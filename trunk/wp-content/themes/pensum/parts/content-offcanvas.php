@@ -16,7 +16,7 @@
    </div>
    <div class="contact-info">
      <div class="info">
-       <a href="mailto:info@pensum.co">info@pensum.co</a>
+       <a href="mailto:info@pensum.co">info@pensum.pro</a>
        <a href="tel:1345-938-6565">Tel: 345-938-6565</a>
      </div>
    </div>

@@ -68,10 +68,31 @@
 								</div>
 							</div>
 
-							<div class="column medium-6" style="background: rgba(0,0,0,.1);" data-equalizer-watch>
+							<div class="column medium-5 right" style="background: rgba(0,0,0,.1);" data-equalizer-watch>
 								<div class="slide-content-right">
 									<div class="vcenter">
-										test
+
+										<div class="quote-form">
+											<div class="row">
+												<div class="column medium-8 medium-centered medium-pull-1">
+													<h2>Our Fees</h2>
+													See our competitive pricing in 3 easy steps.
+													<div class="quote-form-inner">
+
+														<div class="title-wr">Select Service:
+															<span class="step right"></span>
+														</div>
+
+														<select name="service" id="">
+															<option value="service1">Vessel Registration</option>
+														</select>
+
+														<a href="#" class="button red full-width">Next</a>
+													</div>
+												</div>
+											</div>
+										</div>
+
 									</div>
 								</div>
 							</div>
