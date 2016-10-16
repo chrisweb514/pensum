@@ -33,7 +33,7 @@
 			<div class="header-slider-wr" style="position: relative;">
 				<div class="backstretch-image" data-bg-color="#000" data-opacity=".72" data-transition="500" data-bg-image="<?php echo $slide['image']; ?>">
 
-					<div class="slide-content-wr" data-equalizer>
+					<div class="slide-content-wr" data-equalizer data-equalize-on="medium">
 
 							<div class="column medium-6">
 								<div class="row">
@@ -43,7 +43,7 @@
 										<div class="hero-content-wr vcenter">
 
 											<div class="row">
-												<div class="column right medium-10">
+												<div class="column right large-10">
 													<div class="main-quote-wr">
 														<!-- <span class="quote-title"><?php echo $slide['title']; ?></span> -->
 														<h1 id="intro-animation-text">
@@ -68,13 +68,13 @@
 								</div>
 							</div>
 
-							<div class="column medium-5 right" style="background: rgba(0,0,0,.1);" data-equalizer-watch>
+							<div class="column medium-5 right show-for-medium" style="background: rgba(0,0,0,.1);" data-equalizer-watch>
 								<div class="slide-content-right">
 									<div class="vcenter">
 
 										<div class="quote-form">
 											<div class="row">
-												<div class="column medium-8 medium-centered medium-pull-1">
+												<div class="column large-8 large-centered large-pull-1">
 													<h2>Our Fees</h2>
 													See our competitive pricing in 3 easy steps.
 													<div class="quote-form-inner">
