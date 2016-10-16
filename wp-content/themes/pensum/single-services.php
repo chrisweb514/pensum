@@ -20,7 +20,7 @@
 							?>
 
 							<div class="row white-bg quick-ressources">
-								<?php for($i=1; $i<=3; $i++): ?>
+
 								<div class="column medium-4">
 									<div class="title-wr">
 										<h3>Due Diligence</h3>
@@ -28,7 +28,25 @@
 									<div class="desc">Representative persons are required to conduct the same due diligence as for a company client.</div>
 									<a href="#">Read more ></a>
 								</div>
-								<?php endfor; ?>
+
+								<div class="column medium-4">
+									<div class="title-wr">
+										<h3>Due Diligence</h3>
+									</div>
+									<div class="desc">Representative persons are required to conduct the same due diligence as for a company client.</div>
+									<a href="#">Read more ></a>
+								</div>
+
+								<div class="column medium-4">
+									<div class="title-wr">
+										<h3>Due Diligence</h3>
+									</div>
+									<div class="desc">Representative persons are required to conduct the same due diligence as for a company client.</div>
+									<a href="#">Read more ></a>
+								</div>
+
+
+
 							</div>
 
 						</div>

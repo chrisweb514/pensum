@@ -100,13 +100,13 @@ get_header(); ?>
 									<div class="infobox column small-centered small-11 medium-8 large-5">
 										<div class="row">
 											<div class="column small-centered small-11 text-center">
-												<h3>AirVu</h3>
+												<h3>Pensum</h3>
 												<div class="info-wr">
 													<span class="subtitle">Headquarters</span>
-													<span>P.O. Box 10055</span>
-													<span>Grand Cayman KY1-1001</span>
-													<span style="margin-bottom:10px;">CAYMAN ISLANDS,</span>
-													<span><a href="mailto:info@airvu.co">info@airvu.co</a></span>
+													<!-- <span>P.O. Box 10055</span> -->
+													<!-- <span>Grand Cayman KY1-1001</span> -->
+													<span style="margin-bottom:10px;">Cayman Business Park A7</span>
+													<span><a href="mailto:info@airvu.co">info@pensum.pro</a></span>
 													<span><a href="tel:13459386565">Tel: 1 345-938-6565</a></span>
 												</div>
 											</div>

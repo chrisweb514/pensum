@@ -20,12 +20,12 @@
 					<?php if(false): ?>
 						<?php if( is_front_page() ): ?>
 						<div class="mobile-contact-details show-for-small-only text-right">
-							<a href="mailto:">info@airvu.co</a>
+							<a href="mailto:">info@pensum.pro</a>
 							<a href="tel:1345-938-6565">Tel: 345-938-6565</a>
 						</div>
 						<?php else: ?>
 							<div class="mobile-contact-details left show-for-small-only text-left">
-								<a href="mailto:">info@airvu.co</a>
+								<a href="mailto:">info@pensum.pro</a>
 								<a href="tel:1345-938-6565">345-938-6565</a>
 							</div>
 						<div class="book-demo-cta show-for-small-only">

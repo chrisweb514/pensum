@@ -80,6 +80,10 @@ a, button { font-weight: normal; transition: all 0.25s ease;
     font-size: 19px; line-height: 1em;
     background: @highlight;
     .roboto-font;
+    &.full-width { width: 100%; }
+    &.red { padding: 15px 30px; background-color: @red; border: solid 3px @red;
+      &:hover { background: none; }
+    }
     &.grey { background: @softgrey; }
     &.outline { background: none; border: solid 3px #666666; color: #666666;
       &.white { border-color: #FFF!important; color: #FFF; }
@@ -381,6 +385,13 @@ footer { background: #FFF; border-top: solid 1px #E9E9E9; .roboto-font;
     }
 
     .slide-content-wr { position: relative; z-index: 10;
+
+      .quote-form { color: #FFFFFF; .roboto-font;
+        h2 { .roboto-font; margin-bottom: 5px; font-weight: 700; font-size: 35px; color: #F7F7F7; }
+        .quote-form-inner { margin-top: 40px;
+          .title-wr { margin-bottom: 15px; }
+        }
+      }
 
         .blog & { height: 300px;
           .hero h1 { font-weight: 700; font-size: 49px; line-height: 65px; color: #FFFFFF; text-transform: none;
