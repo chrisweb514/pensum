@@ -775,6 +775,7 @@ a {
 
 @media only screen and (max-width: 40em) {
 
+
     body { font-size: 22px; line-height: 1em; }
   .benefits-wr .benefit-item { margin-bottom: 30px; }
   .header-slider-wr .slide-content-wr .hero { height: 350px; padding-top: 275px;
@@ -806,7 +807,7 @@ a {
   .scroll_mobile {  bottom: 20px;position: absolute;  margin-left: 50%;left: -17px;}
 
   #top-bar-menu .book-demo-cta { padding-top: 0.2em; }
-  #top-bar-menu.nav-up { top: -85px; border-bottom: none; }
+  #top-bar-menu.nav-up { top: -58px; border-bottom: none; }
   #top-bar-menu { background: none;
     .inner { padding: 1.1rem 0; background: #FFF; }
   }
@@ -902,7 +903,12 @@ a {
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 // Medium screens
-@media only screen and (min-width: 40.063em) {} /* min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) {
+
+  footer .inner-footer ul.footer-secondary-menu li { margin-right: 20px; }
+  footer .inner-footer ul.border-right { padding-right: 20px; }
+
+} /* min-width 641px, medium screens */
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
 
