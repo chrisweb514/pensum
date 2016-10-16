@@ -8,7 +8,7 @@ if ( !class_exists("collective") ) {
 
 			require_once( 'classes/minify-html.php' );
 			require_once( 'custom-post-types/services.php' );
-			require_once( 'custom-post-types/careers.php' );
+			//require_once( 'custom-post-types/careers.php' );
 			require_once( 'includes/custom-fields.php' );
 
 			add_action( 'wp_print_scripts' , array(&$this, 'print_js') );
