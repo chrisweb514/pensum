@@ -1905,6 +1905,14 @@ form#meal-form input[type=number]::-webkit-outer-spin-button {
   }
 }
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+@media only screen and (min-width: 40.063em) {
+  footer .inner-footer ul.footer-secondary-menu li {
+    margin-right: 20px;
+  }
+  footer .inner-footer ul.border-right {
+    padding-right: 20px;
+  }
+}
 /* min-width 641px, medium screens */
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   .header-slider-wr .slide-content-wr .hero h1 {
