@@ -106,7 +106,7 @@ get_header(); ?>
 													<!-- <span>P.O. Box 10055</span> -->
 													<!-- <span>Grand Cayman KY1-1001</span> -->
 													<span style="margin-bottom:10px;">Cayman Business Park A7</span>
-													<span><a href="mailto:info@airvu.co">info@pensum.pro</a></span>
+													<span><a href="mailto:info@pensum.pro.co">info@pensum.pro</a></span>
 													<span><a href="tel:13459386565">Tel: 1 345-938-6565</a></span>
 												</div>
 											</div>

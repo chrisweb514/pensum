@@ -17,7 +17,7 @@ get_header(); ?>
 						<div class="row medium-uncollapse">
 							<div class="column medium-centered medium-11 font-weight-300">
 								<h2>Book a Demo</h2>
-								<p>A short, customized presentation on how AirVu can benefit your specific role or organization.</p>
+								<p>A short, customized presentation on how Pensum can benefit your specific role or organization.</p>
 
 								<form id="contact_form" data-abide novalidate>
 
@@ -29,12 +29,6 @@ get_header(); ?>
 										<div class="column medium-9">
 											<label>Schedule a demo for
 												 <select id="demo-for" required>
-													 <option value="security">Security</option>
-													 <option value="prisons">Prisons</option>
-													 <option value="border-protection">Border Protection</option>
-													 <option value="police-forces">Police Forces</option>
-													 <option value="fire">Fire</option>
-													 <option value="disaster-response">Disaster Response</option>
 													 <option value="insurance">Insurance</option>
 													 <option value="other">Other</option>
 												 </select>
