@@ -5776,7 +5776,7 @@ function hasScrolled() {
 
 jQuery(document).ready(function($) {
 
-  //$('#myBlock').vide('http://airvu.local.collective.design/wp-content/themes/airvu/assets/dist/videos/prison1.mp4');
+  
   if( $('[data-vide-bg]').length ){
     var instance = $('#background-video').data('vide');
     var video = instance.getVideoObject()
