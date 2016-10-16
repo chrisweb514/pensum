@@ -56,7 +56,7 @@
 													</div>
 
 													<div class="call-to-action-wr">
-														<a href="#" class="button outline white">View our benefits <span class="icon-down-open-mini"></span></a>
+														<a href="#benefits" class="button outline white scroll-to">View our benefits <span class="icon-down-open-mini"></span></a>
 													</div>
 												</div>
 											</div>

@@ -1,6 +1,6 @@
 <?php $benefits = collective::get_benefits($post->ID); ?>
 <?php if( $benefits ): ?>
-  <section class="padding white">
+  <section id="benefits" class="padding white">
     <div class="row text-center benefits-wr">
       <div class="column medium-12 medium-centered">
         <div class="row row medium-up-<?php echo count( $benefits ); ?>" data-equalizer>

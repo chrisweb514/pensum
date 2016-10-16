@@ -51,7 +51,7 @@ function hasScrolled() {
 
 jQuery(document).ready(function($) {
 
-  
+
   if( $('[data-vide-bg]').length ){
     var instance = $('#background-video').data('vide');
     var video = instance.getVideoObject()
