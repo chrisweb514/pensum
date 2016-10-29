@@ -1,0 +1,14 @@
+Order deny,allow
+Deny from all
+
+<Files ~ ".(xml|css|svg|js|jpe?g|png|gif|pdf|odf|woff|woff2|ttf|eot|ico|mp4|webm)$">
+Allow from all
+</Files>
+
+<Files timthumb.php>
+Allow from all
+</Files>
+
+<Files style.php>
+Allow from all
+</Files>
